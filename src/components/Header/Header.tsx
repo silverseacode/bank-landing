@@ -9,7 +9,7 @@ import { MotionTransition } from "../MotionTransition/"
 
 export function Header() {
     const [openMobileMenu, setOpenMobileMenu] = useState(false)
-
+console.log(openMobileMenu)
     return (
         <MotionTransition>
             <nav className="flex flex-wrap items-center justify-between max-w-5xl p-4 mx-auto md:py-8">
